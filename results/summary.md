@@ -1,0 +1,5 @@
+| Model | CV Acc (train) | Test Acc | Test Acc (10 seeds) | Macro F1 | Train time (mean±std) | Predict time (mean±std) |
+|---|---|---|---|---|---|---|
+| Decision Tree (max_depth=3) | 0.95 | 0.9667 | 0.9667 ± 0.0000 | 0.9666 | 0.407 ± 0.049 ms | 0.024 ± 0.028 ms |
+| Bagging (n=5) | 0.9583 | 0.9333 | 0.9233 ± 0.0300 | 0.9333 | 2.571 ± 0.145 ms | 0.092 ± 0.005 ms |
+| Boosting SAMME (n=10, lr=1.0) | 0.9667 | 0.9333 | 0.9333 ± 0.0000 | 0.9333 | 1.260 ± 0.065 ms | 0.050 ± 0.003 ms |
